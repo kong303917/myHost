@@ -1,0 +1,17 @@
+{
+  "name": "myhost",
+  "productName": "myhost",
+  "version": "1.0.0",
+  "description": "switch host simplest",
+  "main": "./main.prod.js",
+  "author": {
+    "name": "zkc",
+    "url": "https://github.com/kong303917"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r babel-register ../internals/scripts/ElectronRebuild.js",
+    "postinstall": "yarn electron-rebuild"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
